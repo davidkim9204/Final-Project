@@ -1,0 +1,95 @@
+@CHARSET "UTF-8";
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+body {
+	font-family: Verdana, sans-serif;
+}
+
+.header{
+	width: 100%;
+	height: 30px;
+	border: 1px solid black;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.month {
+	padding: 10px 20px;
+	width: 100%;
+	height: 60px; 
+	background: skyblue;
+}
+
+.month ul {
+	margin: 0;
+	padding: 0;
+}
+
+.month ul li {
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.month .prev {
+	float: left;
+	padding-top: 10px;
+}
+
+.month .next {
+	float: right;
+	padding-top: 10px;
+}
+
+.weekdays {
+	margin: 0;
+}
+
+.weekdays li {
+	display: inline-block;
+	width: 14.285%;
+	text-align: center;
+	float: left;
+}
+
+.day {
+	width: "100%";
+	height: "600px";
+	border: "1px solid black";
+	text-align: top;
+}
+
+table.day {
+	border-collapse: collapse;
+	text-align: center;
+	vertical-align: top;
+	vertical-align: top;
+	line-height: 5;
+	line-height: 5;
+}
+
+table.day tr {
+	width: 150px;
+	height: 100px;
+	font-weight: bold;
+	vertical-align: top;
+	border: 1px solid #ccc;
+}
+
+table.day td {
+	width: 350px;
+	vertical-align: top;
+	border: 1px solid #ccc;
+}
+
